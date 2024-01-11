@@ -1,5 +1,5 @@
 {
-    "name": "whitecube/laravel-cookie-consent",
+    "name": "rhsolutions/laravel-cookie-consent",
     "description": "Register, configure and ask for cookies consent in a EU-compliant way.",
     "keywords": [
         "whitecube",
