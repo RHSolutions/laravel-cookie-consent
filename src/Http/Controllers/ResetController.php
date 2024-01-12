@@ -18,8 +18,9 @@ class ResetController
             ]);
 
         return $response->withoutCookie(
-            cookie: config('cookieconsent.cookie.name'),
-            domain: config('cookieconsent.cookie.domain'),
+            config('cookieconsent.cookie.name'),
+            null,
+            config('cookieconsent.cookie.domain'),
         );
     }
 }
